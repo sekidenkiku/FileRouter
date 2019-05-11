@@ -1,0 +1,22 @@
+{
+    "name": "sekidenkiku/file-router",
+    "description": "Simple PHP router class.",
+    "keywords": ["router"],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/sekidenkiku/FileRouter",
+    "authors": [
+        {
+            "name": "Takahisa Ishida",
+            "email": "sekidenkiku@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "sekidenkiku\\FileRouter\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    }
+}
